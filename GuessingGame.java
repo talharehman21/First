@@ -1,6 +1,6 @@
 package guessinggame;
 
-import javax.swing.*; #for gui
+import javax.swing.*; 
  
 public class GuessingGame {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class GuessingGame {
         System.out.println("The correct guess would be " + computerNumber);
         int count = 1;
 
-     synchronized  while (userAnswer != computerNumber)
+      while (userAnswer != computerNumber)
         {
             String response = JOptionPane.showInputDialog(null,
                 "Enter a guess between 1 and 100", "Guessing Game", 3);
